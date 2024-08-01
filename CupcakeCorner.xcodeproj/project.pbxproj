@@ -8,17 +8,39 @@
 
 /* Begin PBXBuildFile section */
 		F821CDC82C59ACD5000F4C00 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821CDC72C59ACD5000F4C00 /* CupcakeCornerApp.swift */; };
-		F821CDCA2C59ACD5000F4C00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821CDC92C59ACD5000F4C00 /* ContentView.swift */; };
+		F821CDCA2C59ACD5000F4C00 /* URLSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821CDC92C59ACD5000F4C00 /* URLSessionView.swift */; };
 		F821CDCC2C59ACD6000F4C00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F821CDCB2C59ACD6000F4C00 /* Assets.xcassets */; };
 		F821CDCF2C59ACD6000F4C00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F821CDCE2C59ACD6000F4C00 /* Preview Assets.xcassets */; };
+		F821CDD92C59ADD7000F4C00 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821CDD82C59ADD7000F4C00 /* Models.swift */; };
+		F821CDDB2C59B3B6000F4C00 /* FormContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F821CDDA2C59B3B6000F4C00 /* FormContentView.swift */; };
+		F89E29B32C5A884C006B2FD2 /* CodableContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29B22C5A884C006B2FD2 /* CodableContainerView.swift */; };
+		F89E29B52C5A8D14006B2FD2 /* HapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29B42C5A8D14006B2FD2 /* HapticsView.swift */; };
+		F89E29B72C5A8EF1006B2FD2 /* OptionsContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29B62C5A8EF1006B2FD2 /* OptionsContainerView.swift */; };
+		F89E29B92C5A90B3006B2FD2 /* CustomHapticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29B82C5A90B3006B2FD2 /* CustomHapticsView.swift */; };
+		F89E29BE2C5A9416006B2FD2 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29BD2C5A9416006B2FD2 /* Order.swift */; };
+		F89E29C02C5A9476006B2FD2 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29BF2C5A9476006B2FD2 /* ContainerView.swift */; };
+		F89E29C22C5A9911006B2FD2 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29C12C5A9911006B2FD2 /* AddressView.swift */; };
+		F89E29C42C5AB6A4006B2FD2 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29C32C5AB6A4006B2FD2 /* CheckoutView.swift */; };
+		F89E29C72C5B086D006B2FD2 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89E29C62C5B086D006B2FD2 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F821CDC42C59ACD5000F4C00 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F821CDC72C59ACD5000F4C00 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
-		F821CDC92C59ACD5000F4C00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F821CDC92C59ACD5000F4C00 /* URLSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionView.swift; sourceTree = "<group>"; };
 		F821CDCB2C59ACD6000F4C00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F821CDCE2C59ACD6000F4C00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F821CDD82C59ADD7000F4C00 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F821CDDA2C59B3B6000F4C00 /* FormContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormContentView.swift; sourceTree = "<group>"; };
+		F89E29B22C5A884C006B2FD2 /* CodableContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableContainerView.swift; sourceTree = "<group>"; };
+		F89E29B42C5A8D14006B2FD2 /* HapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsView.swift; sourceTree = "<group>"; };
+		F89E29B62C5A8EF1006B2FD2 /* OptionsContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsContainerView.swift; sourceTree = "<group>"; };
+		F89E29B82C5A90B3006B2FD2 /* CustomHapticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomHapticsView.swift; sourceTree = "<group>"; };
+		F89E29BD2C5A9416006B2FD2 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		F89E29BF2C5A9476006B2FD2 /* ContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		F89E29C12C5A9911006B2FD2 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		F89E29C32C5AB6A4006B2FD2 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		F89E29C62C5B086D006B2FD2 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,11 @@
 		F821CDC62C59ACD5000F4C00 /* CupcakeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				F89E29C52C5B0862006B2FD2 /* Extensions */,
+				F821CDD72C59ADBB000F4C00 /* Models */,
+				F821CDD62C59ADB9000F4C00 /* Views */,
+				F821CDD52C59ADB5000F4C00 /* ViewModels */,
 				F821CDC72C59ACD5000F4C00 /* CupcakeCornerApp.swift */,
-				F821CDC92C59ACD5000F4C00 /* ContentView.swift */,
 				F821CDCB2C59ACD6000F4C00 /* Assets.xcassets */,
 				F821CDCD2C59ACD6000F4C00 /* Preview Content */,
 			);
@@ -65,6 +90,62 @@
 				F821CDCE2C59ACD6000F4C00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F821CDD52C59ADB5000F4C00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F821CDD62C59ADB9000F4C00 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F89E29BA2C5A937A006B2FD2 /* Playground */,
+				F89E29BF2C5A9476006B2FD2 /* ContainerView.swift */,
+				F89E29C12C5A9911006B2FD2 /* AddressView.swift */,
+				F89E29C32C5AB6A4006B2FD2 /* CheckoutView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F821CDD72C59ADBB000F4C00 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F89E29BC2C5A9399006B2FD2 /* Playground */,
+				F89E29BD2C5A9416006B2FD2 /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F89E29BA2C5A937A006B2FD2 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F89E29B22C5A884C006B2FD2 /* CodableContainerView.swift */,
+				F89E29B42C5A8D14006B2FD2 /* HapticsView.swift */,
+				F89E29B82C5A90B3006B2FD2 /* CustomHapticsView.swift */,
+				F89E29B62C5A8EF1006B2FD2 /* OptionsContainerView.swift */,
+				F821CDC92C59ACD5000F4C00 /* URLSessionView.swift */,
+				F821CDDA2C59B3B6000F4C00 /* FormContentView.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		F89E29BC2C5A9399006B2FD2 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				F821CDD82C59ADD7000F4C00 /* Models.swift */,
+			);
+			path = Playground;
+			sourceTree = "<group>";
+		};
+		F89E29C52C5B0862006B2FD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F89E29C62C5B086D006B2FD2 /* String+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +218,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F821CDCA2C59ACD5000F4C00 /* ContentView.swift in Sources */,
+				F89E29C02C5A9476006B2FD2 /* ContainerView.swift in Sources */,
+				F89E29C72C5B086D006B2FD2 /* String+Extensions.swift in Sources */,
+				F821CDD92C59ADD7000F4C00 /* Models.swift in Sources */,
+				F89E29C42C5AB6A4006B2FD2 /* CheckoutView.swift in Sources */,
+				F89E29B72C5A8EF1006B2FD2 /* OptionsContainerView.swift in Sources */,
+				F821CDCA2C59ACD5000F4C00 /* URLSessionView.swift in Sources */,
+				F89E29BE2C5A9416006B2FD2 /* Order.swift in Sources */,
+				F821CDDB2C59B3B6000F4C00 /* FormContentView.swift in Sources */,
+				F89E29C22C5A9911006B2FD2 /* AddressView.swift in Sources */,
+				F89E29B92C5A90B3006B2FD2 /* CustomHapticsView.swift in Sources */,
+				F89E29B32C5A884C006B2FD2 /* CodableContainerView.swift in Sources */,
 				F821CDC82C59ACD5000F4C00 /* CupcakeCornerApp.swift in Sources */,
+				F89E29B52C5A8D14006B2FD2 /* HapticsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
