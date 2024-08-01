@@ -9,7 +9,14 @@ import SwiftUI
 
 struct CheckoutView: View {
     
-    var order: Order
+    @Binding var path: NavigationPath
+    @Bindable var order: Order
+    
+    init(path: Binding<NavigationPath>, order: Order) {
+        self._path = path
+        self.order = order
+    }
+    
     
     @State private var confirmationMessage = ""
     @State private var showingConfirmation = false
@@ -41,7 +48,10 @@ struct CheckoutView: View {
             }
         }
         .alert("Thank you", isPresented: $showingConfirmation) {
-            Button("OK") { }
+            Button("OK") {
+                order.clearValues()
+                path = NavigationPath()
+            }
         } message: {
             Text(confirmationMessage)
         }
@@ -80,5 +90,5 @@ struct CheckoutView: View {
 }
 
 #Preview {
-    CheckoutView(order: Order())
+    CheckoutView(path: .constant(NavigationPath()), order: Order())
 }

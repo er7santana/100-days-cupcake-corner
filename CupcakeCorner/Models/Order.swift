@@ -61,6 +61,17 @@ class Order: Codable {
         return cost
     }
     
+    func clearValues() {
+        type = 0
+        quantity = 3
+        specialRequestEnabled = false
+        
+        name = ""
+        streetAddress = ""
+        city = ""
+        zip = ""
+    }
+    
     enum CodingKeys: String, CodingKey {
         case _type = "type"
         case _quantity = "quantity"

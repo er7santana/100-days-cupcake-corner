@@ -10,9 +10,10 @@ import SwiftUI
 struct ContainerView: View {
     
     @State private var order = Order()
+    @State private var path = NavigationPath()
     
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             Form {
                 Section {
                     Picker("Select your cake type", selection: $order.type) {
@@ -34,12 +35,15 @@ struct ContainerView: View {
                 }
                 
                 Section {
-                    NavigationLink("Delivery details") {
-                        AddressView(order: order)
+                    NavigationLink(value: 1) {
+                        Text("Delivery details")
                     }
                 }
             }
             .navigationTitle("Cupcake Corner")
+            .navigationDestination(for: Int.self) { _ in
+                AddressView(path: $path, order: order)
+            }
         }
     }
 }

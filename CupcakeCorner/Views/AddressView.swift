@@ -9,7 +9,13 @@ import SwiftUI
 
 struct AddressView: View {
     
+    @Binding var path: NavigationPath
     @Bindable var order: Order
+    
+    init(path: Binding<NavigationPath>, order: Order) {
+        self._path = path
+        self.order = order
+    }
     
     var body: some View {
         Form {
@@ -22,7 +28,7 @@ struct AddressView: View {
             
             Section {
                 NavigationLink("Check out") {
-                    CheckoutView(order: order)
+                    CheckoutView(path: $path, order: order)
                 }
                 .disabled(order.hasValidAddress == false)
             }
@@ -34,6 +40,6 @@ struct AddressView: View {
 
 #Preview {
     NavigationView {
-        AddressView(order: Order())
+        AddressView(path: .constant(NavigationPath()), order: Order())
     }
 }
